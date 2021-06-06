@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ContainerComponents">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:background">@color/fundotextoopaco</item>
+   </style>
+
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="hintAnimationEnabled">true</item>
+        <item name="android:background">@color/fundobrancoopaco</item>
+        <item name="android:textColor">@color/cortexto</item>
+        <item name="android:textColorHint">@color/cortexto</item>
+        <item name="android:inputType">textMultiLine|textNoSuggestions</item>
+
+
+        </style>
+
+    <style name="TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">20sp</item>
+
+
+    </style>
+
+    <style name="Button1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/fundotexto</item>
+        <item name="android:background">@drawable/buttonshape1</item>
+    </style>
+
+    <style name="Button2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/buttonshape</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>
